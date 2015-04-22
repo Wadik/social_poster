@@ -25,6 +25,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency('fb_graph', '~> 2.7.7')
   gem.add_dependency('twitter', '~> 4.0')
   gem.add_dependency('livejournal', '~> 0.3.8')
-  gem.add_dependency('vk-ruby', '~> 0.9.3')
+  gem.add_dependency('vkontakte_api', '~> 1.4')
 
 end
