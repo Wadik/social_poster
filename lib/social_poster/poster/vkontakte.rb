@@ -8,7 +8,7 @@ module SocialPoster
 
       def initialize(options)
         @options = options
-        @app = VK::Application.new(access_token: (config_key :access_token))
+        @app = VkontakteApi::Client.new(config_key :access_token)
       end
 
       def write(text, title)
