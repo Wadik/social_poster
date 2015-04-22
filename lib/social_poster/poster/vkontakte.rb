@@ -1,5 +1,3 @@
-require 'vk-ruby'
-
 module SocialPoster
   module Poster
     
