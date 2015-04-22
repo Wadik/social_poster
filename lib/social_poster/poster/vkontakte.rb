@@ -1,3 +1,5 @@
+require 'vkontakte_api'
+
 module SocialPoster
   module Poster
     
