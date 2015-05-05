@@ -15,8 +15,12 @@ module SocialPoster
         end
       end
 
-      def write(text, title)
-        ::Twitter.update(text)
+      def write(text, media)
+        if media.present?
+          ::Twitter.update_with_media(text, media)
+        else
+          ::Twitter.update(text)
+        end  
       end
     end
 
